@@ -1,0 +1,217 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/* common start */
+.c_margin{
+   margin-bottom: 50px;
+}
+/* header start */ 
+.menu ul li a{
+	padding: 0 !important;
+    font-size: 16px;
+    line-height: 35px;
+ }
+ /* exprience start */
+.c_img{
+	padding: 0 10px;
+  }
+.c_content{
+    margin-top: 50px;
+    padding-left: 10px;
+ }
+ .c_p1{
+    font-size: 20px;
+    color: #FAFBFF;
+    line-height: 20px;
+ }
+ .c_h1{
+    font-size: 23px;
+ }
+ .c_p2{
+    margin-right: 0;
+    line-height: 25px;
+ }
+  /* about start */
+ .a_title h1 {
+    margin-bottom: 25px;
+  }
+ .a_content{
+    margin-top: 0;
+    padding-left: 10px;
+ }
+  .c_btn{
+    margin-top: 30px;
+ }
+ /* projects start */ 
+ .overlay a {
+    font-size: 15px;
+  }
+ .p_item {
+    padding: 25px 10px 30px;
+}
+.p_h1 {
+    margin: 15px 0 10px;
+}
+.pf_item ul li {
+    font-size: 14px;
+    padding: 2px 4px;
+}
+/* gmail start */
+.g_text {
+   
+}
+.g_text h1 {
+    font-size: 20px;
+}
+.g_text h2 a {
+    font-size: 22px;
+    
+}
+/* footer top start */ 
+.f_top{ 
+ margin: 0;
+ }
+.ft_icon ul li a{
+    margin: 0 10px;
+ }
+ footer{
+    margin-top: 30px;
+ }
+  }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+/* common start */
+.c_margin{
+   margin-bottom: 70px;
+}
+.menu ul li a{
+	padding: 0 !important;
+    font-size: 16px;
+    line-height: 35px;
+ }
+ /* exprience start */
+.c_img{
+	padding: 0 80px;
+  }
+.c_content{
+    margin-top: 80px;
+    padding-left: 50px;
+ }
+  /* about start */
+ 
+ .a_content{
+    margin-top: 0;
+    margin-right: 20px;
+    padding-left: 50px;
+ }
+ .c_btn{
+    margin-top: 30px;
+ }
+ /* projects start */ 
+ .p_item {
+    padding: 25px 50px 30px;
+}
+.pf_item ul li {
+    padding: 3px 6px;
+}
+/* gmail start */
+
+.g_text h1 {
+    font-size: 25px;
+}
+.g_text h2 a {
+    font-size: 30px;
+    
+}
+/* footer top start */ 
+.f_top{ 
+
+ }
+.ft_icon ul li a{
+    margin-left: 22px;
+ }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/* common start */
+.c_margin{
+   margin-bottom: 70px;
+}
+.menu ul li a{
+	padding: 0 !important;
+ }
+ /* exprience start */
+.c_img{
+	padding: 0 100px;
+  }
+.c_content{
+    margin-top: 80px;
+ 	padding-left: 70px;
+ }
+ 
+  /* about start */
+ .a_content{
+    margin-top: 0;
+    margin-right: 20px;
+    padding-left: 70px;
+ }
+  .c_btn{
+    margin-top: 30px;
+ }
+ /* gmail start */
+ .g_text {
+   
+}
+ .g_text h1 {
+    font-size: 2rem;
+}
+.g_text h2 a {
+    font-size: 35px;
+    
+}
+/* footer top start */ 
+.f_top{ 
+
+ }
+ .ft_icon ul li a{
+    margin-left: 10px;
+ }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.c_p2{
+    line-height: 25px;
+ }
+ /* exprience start */
+ .c_btn{
+    margin-top: 30px;
+ }
+  /* about start */
+ .a_content{
+    margin-top: 20px;
+ }
+ /* projects start */ 
+ .overlay a {
+    font-size: 15px;
+  }
+ .pf_item ul li {
+    padding: 3px 6px;
+}
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+/* exprience start */
+.c_p2{
+    line-height: 25px;
+ }
+}
+
+/* extra extra Large devices (desktops, 1400px and up)*/
+@media (min-width: 1400px)  {  }
